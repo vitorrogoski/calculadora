@@ -56,6 +56,7 @@ export default function App() {
         calculator()
         return
       case '+/-':
+        setCurrentNumber("-" + currentNumber) 
         return
     }
 
