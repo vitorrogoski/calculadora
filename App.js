@@ -65,7 +65,6 @@ export default function App() {
 
 
   return (
-    
     <View style={styles.container}>
 
       {/* Area onde o resultado é exibido */}
@@ -88,7 +87,6 @@ export default function App() {
           </TouchableOpacity>
         )}
       </View>
-
     </View>
   );
 }
